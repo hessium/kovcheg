@@ -3,6 +3,9 @@
     .container {
         background: rgba(233,236,239, 0.8);
         padding: 40px 30px;
+        @media (max-width: 600px) {
+            padding: 10px;
+        }
     }
     .title {
         margin-bottom: 30px;
