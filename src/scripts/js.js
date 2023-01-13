@@ -15,3 +15,12 @@ const swiper = new Swiper('.swiper', {
             clickable: true,
         },  
         }); 
+
+        const swiperGame = new Swiper('.swiper-game', {
+            slidesPerView:	1,
+            spaceBetween:20,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },  
+            }); 
