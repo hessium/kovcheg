@@ -1,0 +1,20 @@
+.footer {
+    background-color: #e7e7e7;
+    .container {
+        align-items: center;
+    }
+
+    &__links {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 15px;
+        & a{
+            max-width: 30px;
+        }
+    }
+    &__desc {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}

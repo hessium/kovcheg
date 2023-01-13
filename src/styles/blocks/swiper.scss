@@ -1,0 +1,23 @@
+.swiper {
+    width: 100%;
+    max-width: 100%;
+    padding-bottom: 40px;
+    &-pagination-bullet {
+        width: 10px;
+        height: 10px;
+    }
+    &-slide {
+        height: 810px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @media (max-width: 600px) {
+            height: 300px;
+        }
+         & img {
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+         }
+    }
+}
